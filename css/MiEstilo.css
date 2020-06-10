@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #201818;
+}
+
+#imgtitulo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgpuerta {
+    display: block;
+    width: 350px;
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+}
+
+#imgvision {
+    width: 390px;
+    height: 430px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#imgmision {
+    width: 390px;
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#imgLetrero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 350px;
+}
+
+#contenedor {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 5px 5px gray;
+    background: #0f8b35;
+}
+
+#tituloh {
+    color: #0f8b35;
+}
+
+#header {
+    background-color: #027c02;
+    padding: 10px;
+    clear: both;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#menu-contenido {
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#copy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: left;
+}
+
+#vepal {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: right;
+}
+
+#menu {
+    color: black;
+    text-align: center;
+    clear: both;
+}
+
+
+/*#menu a{
+    display: block;
+    text-decoration: none;
+    background: #000000;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    color: #00942c;
+}*/
+
+#menu a:hover {
+    background: #00942c;
+}
+
+#contenido {
+    background-color: #f5f5f5;
+    text-align: justify;
+    float: center;
+}
+
+#pie {
+    background-color: #027c02;
+    padding: 10px;
+    color: white;
+}
+
+#botonEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgpie {
+    width: 40%;
+}
+
+#pie p {
+    text-align: center;
+    clear: both;
+}
+
+#mision p {
+    text-align: justify;
+}
+
+#vision p {
+    text-align: justify;
+}
+
+#vision li {
+    text-align: justify;
+}
+
+#quienessomos {
+    text-align: justify;
+}
+
+.contacto {
+    margin-left: 50px;
+    margin-right: 50px;
+    clear: both;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+}
+
+#embedMap {
+    width: 100%;
+    height: 300px;
+}
