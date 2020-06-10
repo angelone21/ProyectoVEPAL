@@ -1,12 +1,19 @@
 function enviarCorreo() {
+
+    var n = document.getElementById("nombres").value;
+    var t = (document.getElementById("telefono")).value;
+
     Email.send({
-        SecureToken: "9bce41b6-6b17-4fbd-8c91-ab3737272258",
-        Host: "smtp.elasticemail.com",
+        //SecureToken: "b473b624-3e44-4ac4-9ea1-192284ced54d",
+        Host: "in-v3.mailjet.com",
+        Username: "36445dabc4207e6a6c6847e17d29a44a",
+        Password: "05a5348151fdaa7a5b2918cb5107cefa",
         To: 'vincenzo.angelone02@gmail.com',
-        From: "vincenzo.angelone2199@gmail.com",
-        Subject: "This is the subject",
-        Body: "And this is the body"
+        From: "vinvezoxgaming@gmail.com",
+        Subject: n,
+        Body: t
     }).then(
         alert("Se enviaron los datos correctamente!")
     );
+
 }
